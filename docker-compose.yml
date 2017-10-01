@@ -1,0 +1,7 @@
+version: '3'
+services:
+  game:
+    build: .
+    command: ruby client.rb
+    volumes:
+      - .:/minesweeper
